@@ -1,0 +1,31 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.d-block{
+    height:350px;
+    width:100%;
+}
+.dell
+{
+    height:140px;
+    width:30px;
+}
+.prd
+{
+    height:100px;
+    width:100px;
+}
+a{
+    text-decoration:none !important;
+    color:black;
+}
+.checkout-form label{
+    font-size:12px;
+    font-weight:700;
+
+}
+.checkout-form input{
+    font-size:14px;
+    padding:5px;
+    font-weight:400;
+}
