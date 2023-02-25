@@ -1,0 +1,13 @@
+$(document).ready(function(){
+    $('#insertData').click(function(e){
+      e.preventDefault();
+      $.ajax({
+          method:"POST",
+          url:"insert.php",
+          data:$('#dataColletion').serialize(),
+          success:function(response){
+              alert(response);
+          }
+      })
+    })
+});
