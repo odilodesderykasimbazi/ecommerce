@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* body{
+    font-family: verdana;
+} */
+.contents{
+    overflow: auto;
+}
+/* .hed{
+    padding: 8px;
+} */
+.lefside{
+    float: left;
+    background-color: #01abfa;
+    width: 20%;
+
+}
+.main_content{
+    float: left;
+    background-color: aliceblue;
+    width: 60%;
+    height: auto;
+}
+.righside{
+    float: left;
+    background-color: #666;
+    width: 20%;
+    text-align: center;
+}
+.footer_side{
+    width: 100%;
+    background-color: darkgrey;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+}
+.logo{
+    width: 8%;
+    height: 8%;
+    object-fit: contain;
+}
